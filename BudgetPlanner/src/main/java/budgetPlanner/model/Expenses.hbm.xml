@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="budgetPlanner.model">
+	<class name="Expenses" table="expenses">
+		<meta attribute="class-description">
+			This class contains the employee detail.
+		</meta>
+		<id name="userId" type="int" column="id">
+		</id>
+		<property name="financialCommitments" column="financialCommitments" type="double" />
+		<property name="homeExpenses" column="homeExpenses" type="double" />
+		<property name="utilitiesExpenses" column="utilitiesExpenses" type="double" />
+		<property name="educationExpenses" column="educationExpenses" type="double" />
+		<property name="healthExpenses" column="healthExpenses" type="double" />		
+		<property name="shoppingExpenses" column="shoppingExpenses" type="double" />
+		<property name="transportExpenses" column="transportExpenses" type="double" />
+		<property name="entertainmentExpenses" column="entertainmentExpenses" type="double" />
+		<property name="eatingOutExpenses" column="eatingOutExpenses" type="double" />
+		<property name="otherExpenses" column="otherExpenses" type="double" />
+	</class>
+</hibernate-mapping>

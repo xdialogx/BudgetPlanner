@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div wicket:id="navomaticBorder">
+		<h3 wicket:id="heder">Income pay</h3>
+		<form wicket:id="payForm">
+			<table>
+				<tr>
+					<th width="400" height="50" scope="col"><span
+						wicket:id="yourPay">yourPay</span></th>
+					<th width="400" height="50" scope="col"><input
+						wicket:id="yourPayValue" type="text" size="15" /></th>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="partnersPay">partnersPay</span></td>
+					<td width="400" height="50"><input
+						wicket:id="partnersPayValue" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="bonuses">bonuses</span></td>
+					<td width="400" height="50"><input wicket:id="bonusesValue"
+						type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="familyPayments">familyPayments</span></td>
+					<td width="400" height="50"><input
+						wicket:id="familyPaymentsValue" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="other">other</span></td>
+					<td width="400" height="50"><input wicket:id="otherValue"
+						type="text" size="15" /></td>
+				</tr>
+			</table>
+			<input id="submitBtn" type="submit" wicket:id="incomePayButton" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div wicket:id="navomaticBorder">
+		<form id="sidePanel" wicket:id="loginForm">
+			<table>
+				<tr>
+					<th width="400" height="50" scope="col"><span
+						wicket:id="userNameLabel">User Name</span></th>
+					<th width="400" height="50" scope="col"><input
+						wicket:id="userName" type="text" size="22" /></th>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span
+						wicket:id="userPasswordLabel">Password</span></td>
+					<td width="400" height="50"><input wicket:id="userPassword"
+						type="password" size="22" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><input id="submitBtn" type="submit"
+						wicket:id="loginButton" value="Login" /></td>
+					<td width="400" height="50"><a href="#" wicket:id="link">Registration</a></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

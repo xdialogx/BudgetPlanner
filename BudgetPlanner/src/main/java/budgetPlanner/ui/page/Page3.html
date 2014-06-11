@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div wicket:id="navomaticBorder">
+		<h3 wicket:id="heder">Expenses</h3>
+		<form wicket:id="expensesForm">
+			<table>
+				<tr>
+					<th width="400" height="50" scope="col"><span
+						wicket:id="financialCommitmentsLabel">financialCommitments</span></th>
+					<th width="400" height="50" scope="col"><input
+						wicket:id="financialCommitmentsField" type="text" size="15" /></th>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="homeExpensesLabel">homeExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="homeExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="utilitiesExpensesLabel">utilitiesExpenses</span></td>
+					<td width="400" height="50"><input wicket:id="utilitiesExpensesField"
+						type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="educationExpensesLabel">educationExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="educationExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="healthExpensesLabel">healthExpenses</span></td>
+					<td width="400" height="50"><input wicket:id="healthExpensesField"
+						type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="shoppingExpensesLabel">shoppingExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="shoppingExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="transportExpensesLabel">transportExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="transportExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="entertainmentExpensesLabel">entertainmentExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="entertainmentExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="eatingOutExpensesLabel">eatingOutExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="eatingOutExpensesField" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td width="400" height="50"><span wicket:id="otherExpenses">otherExpenses</span></td>
+					<td width="400" height="50"><input
+						wicket:id="otherExpensesField" type="text" size="15" /></td>
+				</tr>
+			</table>
+			<input id="submitBtn" type="submit" wicket:id="expensesButton" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>
